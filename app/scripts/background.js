@@ -39,7 +39,7 @@ import rawFirstTimeState from './first-time-state';
 import getFirstPreferredLangCode from './lib/get-first-preferred-lang-code';
 import getObjStructure from './lib/getObjStructure';
 import setupEnsIpfsResolver from './lib/ens-ipfs/setup';
-import { getPlatform } from './lib/util';
+import { getEnvironmentType, getPlatform } from './lib/util';
 /* eslint-enable import/first */
 
 const { sentry } = global;
@@ -88,7 +88,7 @@ if (process.env.ENABLE_MV3) {
   })();
 
   // THIS IS ADDED as a test
-  initialize().catch(log.error);
+  // initialize().catch(log.error);
 } else {
   initialize().catch(log.error);
 }
@@ -161,6 +161,7 @@ async function initialize(remotePort) {
   if (!initialLangCode) {
     initialLangCode = await getFirstPreferredLangCode();
   }
+  console.log("INITIAL STATE:", initialState)
   await setupController(initialState, initialLangCode, remotePort);
   log.info('MetaMask initialization complete.');
 }
@@ -322,14 +323,28 @@ async function setupController(initState, initLangCode, remoteSourcePort) {
     }
   }
 
-  console.log(
-    'process.env.ENABLE_MV3 && remoteSourcePort',
-    process.env.ENABLE_MV3,
-    remoteSourcePort,
-  );
-  if (process.env.ENABLE_MV3 && remoteSourcePort) {
+  // console.log(
+  //   'process.env.ENABLE_MV3 && remoteSourcePort',
+  //   process.env.ENABLE_MV3,
+  //   remoteSourcePort,
+  // );
+  if (remoteSourcePort) {
     connectRemote(remoteSourcePort);
   }
+
+  browser.runtime.onMessage.addListener((message) => {
+    console.log("IN ON MESSAGE FOR RECEIVING REMOTEPORT")
+    if (message?.type === 'REMOTE_PORT') {
+      connectRemote(message?.remotePort);
+    }
+  });
+  // else {
+  //   // identify window type (popup, notification)
+  //   // const windowType = getEnvironmentType();
+  //   const extensionPort = browser.runtime.connect({ name: 'popup' });
+  //   console.log("EXTENSION PORT IN else:", extensionPort)
+  //   connectRemote(extensionPort);
+  // }
 
   //
   // connect to other contexts
@@ -381,6 +396,7 @@ async function setupController(initState, initLangCode, remoteSourcePort) {
    * @param {Port} remotePort - The port provided by a new context.
    */
   function connectRemote(remotePort) {
+    console.log('RemotePort in connectRemote:', remotePort);
     const processName = remotePort.name;
 
     if (metamaskBlockedPorts.includes(remotePort.name)) {
@@ -402,7 +418,7 @@ async function setupController(initState, initLangCode, remoteSourcePort) {
       // communication with popup
       controller.isClientOpen = true;
       controller.setupTrustedCommunication(portStream, remotePort.sender);
-      console.log('CONNECTREMOTE HAPPENING', process.env.ENABLE_MV3);
+      // console.log('CONNECTREMOTE HAPPENING', process.env.ENABLE_MV3);
       if (process.env.ENABLE_MV3) {
         remotePort.postMessage({ name: 'CONNECTION_READY' });
       }
