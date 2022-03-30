@@ -15,7 +15,7 @@ function tryImport(...fileNames) {
 // eslint-disable-next-line
 chrome.runtime.onConnect.addListener(() => {
   if (!initialized) {
-    console.log("not initalized. Importing scripts now!")
+    console.log('not initalized. Importing scripts now!');
     importAllScripts();
   }
 });
