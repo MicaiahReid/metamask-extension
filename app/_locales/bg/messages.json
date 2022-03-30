@@ -959,6 +959,9 @@
   "tokenContractAddress": {
     "message": "Адрес на договор за жетони"
   },
+  "tokenDecimalTitle": {
+    "message": "Точност до десетични знаци:"
+  },
   "tokenSymbol": {
     "message": "Символ на маркер"
   },

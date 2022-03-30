@@ -596,6 +596,9 @@
   "tokenAlreadyAdded": {
     "message": "Ou te deja ajoute token."
   },
+  "tokenDecimalTitle": {
+    "message": "Presizyon desimal la:"
+  },
   "tokenSymbol": {
     "message": "Token Senbòl"
   },

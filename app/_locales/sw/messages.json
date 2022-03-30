@@ -941,6 +941,9 @@
   "tokenContractAddress": {
     "message": "Anwani ya Mkataba ya Kianzio"
   },
+  "tokenDecimalTitle": {
+    "message": "Desimali za Usahihi:"
+  },
   "tokenSymbol": {
     "message": "Ishara ya Kianzio"
   },

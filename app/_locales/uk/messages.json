@@ -963,6 +963,9 @@
   "tokenContractAddress": {
     "message": "Контрактна адреса токену"
   },
+  "tokenDecimalTitle": {
+    "message": "Знаків після коми:"
+  },
   "tokenSymbol": {
     "message": "Символ токена"
   },

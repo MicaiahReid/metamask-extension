@@ -963,6 +963,9 @@
   "tokenContractAddress": {
     "message": "Žetono kontaktinis adresas"
   },
+  "tokenDecimalTitle": {
+    "message": "Skaičiai po kablelio:"
+  },
   "tokenSymbol": {
     "message": "Žetono ženklas"
   },

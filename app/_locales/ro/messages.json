@@ -950,6 +950,9 @@
   "tokenContractAddress": {
     "message": "Adresa din contractul de token"
   },
+  "tokenDecimalTitle": {
+    "message": "Zecimale de precizie:"
+  },
   "tokenSymbol": {
     "message": "Simbol token"
   },

@@ -951,6 +951,9 @@
   "tokenContractAddress": {
     "message": "Adres kontraktu tokena"
   },
+  "tokenDecimalTitle": {
+    "message": "Dokładność liczb po przecinku:"
+  },
   "tokenSymbol": {
     "message": "Symbol tokena"
   },

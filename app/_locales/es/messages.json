@@ -772,6 +772,9 @@
   "goerli": {
     "message": "Red de prueba Goerli"
   },
+  "gotIt": {
+    "message": "Entendido!"
+  },
   "happyToSeeYou": {
     "message": "Nos alegra verlo."
   },
@@ -1684,6 +1687,9 @@
   "storePhrase": {
     "message": "Guarde esta frase en un administrador de contraseñas como 1Password."
   },
+  "stxFailure": {
+    "message": "Error al canjear"
+  },
   "submit": {
     "message": "Enviar"
   },
@@ -2040,6 +2046,9 @@
   },
   "tokenDecimalFetchFailed": {
     "message": "Se requieren los decimales del token."
+  },
+  "tokenDecimalTitle": {
+    "message": "Decimales del token:"
   },
   "tokenSymbol": {
     "message": "Símbolo del token"

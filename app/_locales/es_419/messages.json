@@ -182,6 +182,9 @@
   "aggregatorFeeCost": {
     "message": "Cuota de red de agregador"
   },
+  "airgapVaultTutorial": {
+    "message": " (Tutoriales)"
+  },
   "alertDisableTooltip": {
     "message": "Esto se puede modificar en \"Configuración > Alertas\""
   },
@@ -431,6 +434,10 @@
   "close": {
     "message": "Cerrar"
   },
+  "collectibleAddressError": {
+    "message": "Este token es un NFT. Añadir a $1",
+    "description": "$1 is a clickable link with text defined by the 'importNFTPage' key"
+  },
   "confirm": {
     "message": "Confirmar"
   },
@@ -564,6 +571,9 @@
   },
   "contractInteraction": {
     "message": "Interacción con el contrato"
+  },
+  "convertTokenToNFTDescription": {
+    "message": "Hemos detectado que este activo es un NFT. Metamask ahora tiene soporte nativo completo para NFTs. ¿Quieres eliminarlo de tu lista de tokens y añadirlo como un NFT?"
   },
   "copiedExclamation": {
     "message": "¡Copiado!"
@@ -1246,6 +1256,9 @@
   "goerli": {
     "message": "Red de prueba Goerli"
   },
+  "gotIt": {
+    "message": "Entendido!"
+  },
   "grantedToWithColon": {
     "message": "Concedido a:"
   },
@@ -1329,6 +1342,18 @@
   "importMyWallet": {
     "message": "Importar Mi cartera"
   },
+  "importNFT": {
+    "message": "Importar NFT"
+  },
+  "importNFTAddressToolTip": {
+    "message": "En OpenSea, por ejemplo, en la página de NFT en Detalles, hay un un vínculo azul etiquetado como 'Dirección del contrato'. Si haces clic en esto, te llevará a la dirección del contrato en Etherscan; en la parte superior izquierda de esa página, debe haber un icono etiquetado como 'Contrato' y, a la derecha, una larga cadena de letras y números. Esta es la dirección del contrato que creó tu NFT. Haz clic en el icono de 'copiar' que aparece a la derecha de la dirección, y la tendrás en el portapapeles."
+  },
+  "importNFTPage": {
+    "message": "Importar página de NFT"
+  },
+  "importNFTTokenIdToolTip": {
+    "message": "El ID de un coleccionable es un identificador único, ya que no hay dos NFT iguales. Nuevamente, en OpenSea este número está en 'Detalles'. Anótalo o cópialo en tu portapapeles."
+  },
   "importNFTs": {
     "message": "Importar NFT"
   },
@@ -1381,6 +1406,9 @@
   },
   "invalidAddressRecipientNotEthNetwork": {
     "message": "No es una red ETH; configurar en minúsculas"
+  },
+  "invalidAssetType": {
+    "message": "Este activo es un NFT y debe volver a añadirse en la página de Importar NFTs que se encuentra en la pestaña de NFTs"
   },
   "invalidBlockExplorerURL": {
     "message": "Dirección URL del explorador de bloques no válida"
@@ -1560,6 +1588,9 @@
   },
   "mainnet": {
     "message": "Red principal de Ethereum"
+  },
+  "mainnetToken": {
+    "message": "Esta dirección coincide con una dirección conocida de token en la Mainnet de Ethereum. Vuelve a comprobar la dirección del contrato y la red correspondiente al token que intentas añadir."
   },
   "makeAnotherSwap": {
     "message": "Crear un nuevo swap"
@@ -1814,6 +1845,9 @@
   "nextNonceWarning": {
     "message": "El nonce es superior al nonce sugerido de $1",
     "description": "The next nonce according to MetaMask's internal logic"
+  },
+  "nftTokenIdPlaceholder": {
+    "message": "Ingresa el ID del token"
   },
   "nfts": {
     "message": "NFT"
@@ -2321,7 +2355,7 @@
     "message": "ADVERTENCIA: No revele su frase de respaldo. Cualquier persona que tenga esta frase puede robarle los ethers."
   },
   "secretPhrase": {
-    "message": "Ingrese su frase secreta aquí para restaurar su bóveda."
+    "message": "Solo la primera cuenta de esta cartera se cargará automáticamente. Después de llevar a cabo este proceso, para agregar cuentas adicionales haga clic en el menú desplegable y luego seleccione Crear cuenta."
   },
   "secretRecoveryPhrase": {
     "message": "Frase secreta de recuperación"
@@ -2632,6 +2666,9 @@
   },
   "storePhrase": {
     "message": "Guarde esta frase en un administrador de contraseñas como 1Password."
+  },
+  "stxFailure": {
+    "message": "Error al canjear"
   },
   "submit": {
     "message": "Enviar"
@@ -3051,6 +3088,9 @@
   "tokenDecimalFetchFailed": {
     "message": "Se requieren los decimales del token."
   },
+  "tokenDecimalTitle": {
+    "message": "Decimales del token:"
+  },
   "tokenDetectionAnnouncement": {
     "message": "¡Nuevo! La detección de tokens mejorada está disponible en la Mainnet de Ethereum como funcionalidad experimental. $1"
   },
@@ -3405,6 +3445,9 @@
   "xOfYPending": {
     "message": "$1 de $2 están pendientes",
     "description": "$1 and $2 are intended to be two numbers, where $2 is a total number of pending confirmations, and $1 is a count towards that total"
+  },
+  "yes": {
+    "message": "Sí"
   },
   "yesLetsTry": {
     "message": "Sí, intentémoslo"

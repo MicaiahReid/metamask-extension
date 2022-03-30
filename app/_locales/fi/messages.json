@@ -960,6 +960,9 @@
   "tokenContractAddress": {
     "message": "Käyttötunnuksen yhteysosoite"
   },
+  "tokenDecimalTitle": {
+    "message": "Tarkkuusdesimaalit:"
+  },
   "tokenSymbol": {
     "message": "Tietuesymboli"
   },

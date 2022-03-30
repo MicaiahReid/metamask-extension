@@ -476,6 +476,9 @@
   "tokenAlreadyAdded": {
     "message": "โทเคนได้ถูกเพิ่มไปแล้ว"
   },
+  "tokenDecimalTitle": {
+    "message": "ตำแหน่งของทศนิยม:"
+  },
   "tokenSymbol": {
     "message": "สัญลักษณ์ประจำตัว"
   },

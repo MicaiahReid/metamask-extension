@@ -385,6 +385,9 @@
   "tokenAlreadyAdded": {
     "message": "Token byl už přidán."
   },
+  "tokenDecimalTitle": {
+    "message": "Počet desetinných míst přesnosti:"
+  },
   "tokenSymbol": {
     "message": "Symbol tokenu"
   },

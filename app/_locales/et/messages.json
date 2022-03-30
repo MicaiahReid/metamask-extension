@@ -953,6 +953,9 @@
   "tokenContractAddress": {
     "message": "Loa lepinguaadress"
   },
+  "tokenDecimalTitle": {
+    "message": "Täpsuse kümnendkohad:"
+  },
   "tokenSymbol": {
     "message": "Tokeni sümbol"
   },

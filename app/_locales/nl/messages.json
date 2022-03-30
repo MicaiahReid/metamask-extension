@@ -340,6 +340,9 @@
   "tokenAlreadyAdded": {
     "message": "Token is al toegevoegd."
   },
+  "tokenDecimalTitle": {
+    "message": "Decimalen van precisie:"
+  },
   "total": {
     "message": "Totaal"
   },

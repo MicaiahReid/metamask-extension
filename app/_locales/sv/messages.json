@@ -941,6 +941,9 @@
   "tokenContractAddress": {
     "message": "Kontraktsadress för token"
   },
+  "tokenDecimalTitle": {
+    "message": "Decimalprecision:"
+  },
   "tokenSymbol": {
     "message": "Token-symbol"
   },

@@ -935,6 +935,9 @@
   "tokenContractAddress": {
     "message": "Adreça del contracte del token"
   },
+  "tokenDecimalTitle": {
+    "message": "Decimals de precisió:"
+  },
   "tokenSymbol": {
     "message": "Símbol de Fitxa"
   },

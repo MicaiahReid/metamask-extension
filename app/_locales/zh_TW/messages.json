@@ -942,6 +942,9 @@
   "tokenContractAddress": {
     "message": "代幣合同位址"
   },
+  "tokenDecimalTitle": {
+    "message": "小數點精度:"
+  },
   "tokenSymbol": {
     "message": "代幣代號"
   },

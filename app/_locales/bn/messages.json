@@ -963,6 +963,9 @@
   "tokenContractAddress": {
     "message": "টোকেন কন্ট্র্যাক্ট অ্যাড্রেস"
   },
+  "tokenDecimalTitle": {
+    "message": "নির্ভুলতার দশমিক:"
+  },
   "tokenSymbol": {
     "message": "টোকেনের প্রতীক"
   },

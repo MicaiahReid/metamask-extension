@@ -347,6 +347,9 @@
   "tokenAlreadyAdded": {
     "message": "Token já foi adicionado."
   },
+  "tokenDecimalTitle": {
+    "message": "Precisão em Decimais:"
+  },
   "tokenSymbol": {
     "message": "Símbolo do Token"
   },

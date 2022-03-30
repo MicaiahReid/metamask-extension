@@ -964,6 +964,9 @@
   "tokenContractAddress": {
     "message": "عنوان عقد العملة الرمزية"
   },
+  "tokenDecimalTitle": {
+    "message": "دقة بالكسور العشرية:"
+  },
   "tokenSymbol": {
     "message": "رمز العملة الرمزية"
   },

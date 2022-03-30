@@ -957,6 +957,9 @@
   "tokenContractAddress": {
     "message": "כתובת חוזה טוקן"
   },
+  "tokenDecimalTitle": {
+    "message": "רמת דיוק עשרוני:"
+  },
   "tokenSymbol": {
     "message": "סמל טוקן"
   },

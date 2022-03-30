@@ -866,6 +866,9 @@
   "tokenAlreadyAdded": {
     "message": "Naidagdag na ang token."
   },
+  "tokenDecimalTitle": {
+    "message": "Bilang ng Decimal:"
+  },
   "tokenSymbol": {
     "message": "Simbolo ng Token"
   },

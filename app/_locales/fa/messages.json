@@ -963,6 +963,9 @@
   "tokenContractAddress": {
     "message": "آدرس قرارداد رمزیاب"
   },
+  "tokenDecimalTitle": {
+    "message": "اعشاریه های دقت:"
+  },
   "tokenSymbol": {
     "message": "سمبول رمزیاب"
   },

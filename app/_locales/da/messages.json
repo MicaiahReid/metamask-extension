@@ -935,6 +935,9 @@
   "tokenContractAddress": {
     "message": "Polet Kontrakt Adresse"
   },
+  "tokenDecimalTitle": {
+    "message": "Decimalpræcision:"
+  },
   "tokenSymbol": {
     "message": "Token-symbol"
   },
